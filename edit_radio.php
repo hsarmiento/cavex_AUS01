@@ -1,6 +1,6 @@
 <?php 
-require_once($_SERVER['DOCUMENT_ROOT'].'/cavex_USA01/'.'routes.php');
-require_once($_SERVER['DOCUMENT_ROOT'].'/cavex_USA01/'.'header.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/cavex_AUS01/'.'routes.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/cavex_AUS01/'.'header.php');
 // require_once($aRoutes['paths']['config'].'st_functions_generals.php');
 require_once($aRoutes['paths']['config'].'bs_model.php');
 $oLogin = new BSLogin();
@@ -51,6 +51,6 @@ if(empty($n_radio) || empty($radio_id)){
 
 
 <?php 
-require_once($_SERVER['DOCUMENT_ROOT'].'/cavex_USA01/'.'footer.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/cavex_AUS01/'.'footer.php');
 
 ?>
